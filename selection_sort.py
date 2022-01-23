@@ -1,7 +1,7 @@
 # Selection sort algorithm. Using time: O(n^2)
 # Also, file has function of the smallest index in list.
 
-def find_smallest(arr):
+def find_smallest(arr: list) -> int:
     """
     Function get list and find index of the smallest element.
     :param arr: list to sort
@@ -16,7 +16,7 @@ def find_smallest(arr):
     return smallest_index
 
 
-def selection_sort(arr):
+def selection_sort(arr: list) -> list:
     """
     Main sorting function. Using "find_smallest" function as part
     of the algorythm.
